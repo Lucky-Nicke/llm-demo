@@ -1,2 +1,7 @@
 server:
   port: 8888
+
+llm:
+  base-url: https://api.siliconflow.cn/v1/chat/completions
+  model: deepseek-ai/DeepSeek-V4-Flash
+  api-key: sk-mediyjtruumsdwuqyyfwocspynkfdqxsogqrtcnnaaedjzxj

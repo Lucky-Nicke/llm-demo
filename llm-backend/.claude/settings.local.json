@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -o /tmp/order_file http://www.corget.com/DownloadServer/download/Files/order)",
+      "Read(//tmp/**)",
+      "Bash(xxd:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

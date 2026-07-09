@@ -19,4 +19,6 @@ public class TravelRecommendVO {
     private List<String> tips;
     private List<String> warnings;
     private BudgetBreakdown budgetBreakdown;
+    private String error;
+    private String rawResponse;
 }
