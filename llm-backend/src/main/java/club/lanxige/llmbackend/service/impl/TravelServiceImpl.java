@@ -73,8 +73,8 @@ public class TravelServiceImpl implements TravelService {
         }
 
         String[] patterns = {
-                "```json\\n([\\s\\S]*?)\\n```",
-                "```\\n([\\s\\S]*?)\\n```"
+                "```json\n([\\s\\S]*?)\n```",
+                "```\n([\\s\\S]*?)\n```"
         };
 
         for (String pattern : patterns) {

@@ -11,4 +11,12 @@ export default defineConfig({
       resolvers: [VantResolver()],
     }),
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8888',
+        changeOrigin: true,
+      },
+    },
+  },
 })

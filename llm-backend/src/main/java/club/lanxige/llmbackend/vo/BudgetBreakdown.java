@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class BudgetBreakdown {
 
-    private Integer accommodation;
-    private Integer food;
-    private Integer transportation;
-    private Integer tickets;
-    private Integer other;
+    private Object accommodation;
+    private Object food;
+    private Object transportation;
+    private Object tickets;
+    private Object other;
 }
